@@ -58,8 +58,6 @@ class ApiDocVAE(Model):
 
         with tf.variable_scope('api'):
             api_vocab_size = config.api_config.vocab_size
-            api_vocab_weights = np.array(
-                self.api_indexer.ids2weights(range(api_vocab_size)))
             api_model = self.kwargs['api_model']
             self.api_vae = api_model(config.api_config,
                                      mode=self.mode, reuse=self.reuse,
@@ -67,7 +65,6 @@ class ApiDocVAE(Model):
                                      task=config.task,
                                      indexer=self.doc_indexer,
                                      ad_latent=None,
-                                     vocab_weights=api_vocab_weights,
                                      **self.kwargs)
 
         with tf.variable_scope('doc'):
@@ -77,8 +74,6 @@ class ApiDocVAE(Model):
                 ad_latent = None
 
             doc_vocab_size = config.doc_config.vocab_size
-            doc_vocab_weights = np.array(
-                self.doc_indexer.ids2weights(range(doc_vocab_size)))
             doc_model = self.kwargs['doc_model']
             self.doc_vae = doc_model(config.doc_config,
                                      mode=self.mode, reuse=self.reuse,
@@ -86,7 +81,6 @@ class ApiDocVAE(Model):
                                      task=config.task,
                                      indexer=self.doc_indexer,
                                      ad_latent=ad_latent,
-                                     vocab_weights=doc_vocab_weights,
                                      **self.kwargs)
         # Loss.
         if config.use_variational:

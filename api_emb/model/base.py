@@ -57,13 +57,6 @@ class BaseSeqModel(AbstractModel):
             [b_idxs, tf.reshape(self.idx_inputs, [-1])],
             axis=1)
 
-        # For sigoid activation.
-        self.idx_in_vocab = tf.cast(tf.greater(self.bow_inputs, 0.), tf.float32)
-        self.idx_nin_vocab = tf.ones_like(self.idx_in_vocab) - self.idx_in_vocab
-
-        self.vocab_weights = tf.constant(self.kwargs['vocab_weights'],
-                                         dtype=tf.float32)
-
     def _build_embedding(self):
         config = self.config
         v, e = config.vocab_size, config.embedding_size
@@ -131,7 +124,6 @@ class BaseSeqModel(AbstractModel):
             self.logits = fc_layer(hinputs, config.vocab_size,
                                    activation_fn=None)
             self.p_x_hat = tf.nn.softmax(self.logits, dim=-1, name='p_x_hat')
-            # self.p_x_hat = tf.sigmoid(self.logits, name='p_x_hat')
 
     def _build_kl_div(self):
         config = self.config

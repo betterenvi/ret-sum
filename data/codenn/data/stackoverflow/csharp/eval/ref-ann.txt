@@ -1,0 +1,216 @@
+11794146	convert hexadecimal number to decimal
+3263407	create new process component for each process resource on the local system
+24717887	add items a listview control
+18085140	on button click, swap the selected control with control at the top of the panel
+1908494	bubble up all exceptions in the current scope as exceptions of the type mycustomexception, in case you encounter a different type wrap it inside a mycustomexception instance
+2426759	the delegate in sqlconnection that can be used to handle sqlserver messages being sent out to the calling application
+2038730	send the given keys to the window identfied by provided name and wait for it to be processed
+12199600	extract from the path, a string matching the format specified - 4 nos followed by \, four occurrences of 2 nos followed by \,8 letter word followed by . and terminating with 3 letter words
+9615661	access the header text for the column with index x in a datagridview
+4902461	base class from which all custom configuration types can be inherited
+4248930	set text from one textbox on to another
+3698885	remove characters matching regex in the string (allow alphanumerics, space, special characters, tab, newline, carriage feed i.e., typeable in standard keyboard but remove other control characters)
+25015791	declare delegate function to call when location is updated
+5889197	select the fullname column value of all employees present in db
+9938524	select a specific row in a datatable using linq
+11706652	get the selected item in a listview
+14711685	add the file to response as a downloadable attachment and not render in browser
+16265102	initialize an orthogonal projection matrix of specified width and height and within provided z-coordinates
+6223570	on form load, render a cyclic progress bar effect on specified label which is updated on each tick of the timer
+23929653	asp.net: instruct the server to redirect navigation to another page
+23809189	parse string as an integer
+25593771	on paint event, render a translucent image layer exactly over the parent control
+21025021	in wpf create a textblock completely in code-behind
+5326411	represent all nodes in the xml as tree view in the windows form
+9287656	implementation of an action method of controller class which handles page retrieval from service and display
+22895074	on click of button, clear contents and focus on the textbox based on the selected checkbox value
+24082445	verify if file is used by another process to trying to open it
+20314499	remove all whitespace from the left and right sides of a string
+8760263	use an anonymous method as an eventhandler where you clear the eventhandler registration on the vm.loaded event
+10303961	convert the string names of enum values to their equivalent more readable versions by injecting the space char between the words inside the string name
+17545064	in asp.net mvc, library dhtmlx: set the intialview property of the dhxscheduler object to a view having a specific name
+3698885	replace a specific pattern in a string using regular expressions
+11794146	convert a number to another number based on a standard equation
+1195896	define a thread with a parameterized function delegate on start
+15429656	limit the size of the numeric input to 5 digits, regardless of the dot and comma chars
+5622166	get the list of students that achieved a certain grade
+3263407	get the currently running processes in the system
+4048459	create new thread for each iteration and invoke delegate on thread start to print the thread number created
+1605231	initialize static variable from field value of another class
+221154	print the hexadecimal equivalent of the decimal number using its binary representation
+9455043	implement iterator using yield statement
+21084821	add 25 buttons to the panel in the form of a circle of radius 150 equally spaced along the cirumference
+6189782	create a matrix of given size and rotate along the axes as provided
+31916153	convert epochal time to local datetime
+22132901	return the strings in the collection words in reverse order
+6119617	use windows api to press the up and down keys on a form
+10602064	using reflection and offince interop api to open a word document
+3334229	identify 3 top-selling productids from baskettoproduct
+11706652	get the selected item from a list view control
+16313062	control word and code value in mac os for the right double quotes in rtf
+10704284	create combo box for each string present in installedprinters collection
+9759697	open a file with readwrite filesharing to enable getting updates on external modification to file
+17545064	set property value of a class instance
+25015791	using an unnamed event handler method to handle the locationsupdated event by writing out to console the coordinates of the location
+4581022	create a new registry key under the currentuser registry key
+10626905	two examples of grouping by anonymous type using linq
+6580765	for each item in a listbox add a related text to a textbox and report progress, until a cancel request is sent
+8931027	declare a function delegate and call it
+19624731	read a file located on the current user's desktop into a streamreader
+23929653	returns a response containing the redirect url
+6223570	move a label control on a form based on a timer ticking
+30163147	serialize a collection into a json string
+21084821	loop over a radius of points and place button controls across this radius
+11911359	split a long string and return enumerable of groups of 10 words space separated
+14711685	add an attachment to the post request to a web server
+670570	start a timer based on a datetime parameter from now
+31916153	convert a unix timestamp to a c# datetime structure
+25735796	add 0 to beginning of a decimal number less than 1
+24853376	search a specific country node in an xml file and add it if it is not found
+16154809	get the co-ordinates of all points inside a rectangle in column-wise fashion starting from left top ending with bottom right
+12872596	use reflection to programmatically identify the name of current method
+6148639	create a new outlook mail item to specified recipient
+16774261	set the date value of a datetimepicket to the data returned in a datareader object
+9501560	launch the provided program under the current user
+28573784	provide the query to run directly as string and execute it on database
+27461741	identify all nodes in the html document with the provided class name and having hyperlink attribute set
+12718754	for each defined known color, create a list box item of that color and content as color name
+13614242	open a url in visual studio using the visual studio automation object model
+16226229	add a new row to the datatextview control
+16320243	assign a byte as either 1 or 0 based on the value of a string field
+9287656	asp.net mvc display a page based on its id if it is not null
+8931027	call an unnamed delegate handler method
+13769081	aynschronously save changes in batch with provided callback after success
+3645643	spread buttons created at runtime at various points on the form and for each of them assign a click event handler that displays a messagebox having the button's name
+25012262	string  representation of all values of give enum type
+6737976	create an xml document programattically
+1908494	throw exception of  custom defined type only from the code block
+9759697	open a streamreader built on a filestream
+2884873	select list of items which don't have certain blacklisted field values
+24853376	add a new node with provided value to xml document if not already present in the provided path
+18085140	when a control is clicked move it to the bottom of the z index
+31255115	send a key to input field whose id starts with given text
+10183441	keep track of the number of instances of a class created using static variable
+8658947	parse the xml string to xml type document
+16774261	parse string to date and assign value to the datetimepicker control
+16320243	type cast integer to byte
+3047448	get type based service from unmanaged service provider
+7436400	extract list of space separated double values from a text box and ignore other characters
+12880009	create a new web request
+1195896	start a thread with a parameter object
+4581022	create a new registry key under the current user to store certain application properties
+5889197	get a list of full names for all the employees in a mongodb table
+22895074	use a checklistbox to clear one or two richtextbox controls based on the selected checkboxes
+23809189	convert a string to an int
+13502616	retrieve a list of sql commands from file in remote location and execute them on the local database
+3893622	implement a custom progressbar control that changes its theme based on the operating system's release
+22592997	get a dataset from the billviewservice divided in pages whose size is given as a parameter
+16226229	add a row with specified text and current time string to view
+3989638	using linqtosql return a collection of products complying with a specific condition
+18864209	confirm that each and every rfc in a given list has a match in the list of afd based on specific search criteria
+10183441	keep track of the number of instances created from a class definition using a private static int counter
+9369535	load the file content on to http response with headers and content type set
+27105702	return the database name and the table name substrings from a sql query string using regular expressions
+22592997	create an in-memory cache of the data retrieved
+25012262	return the string names of a certain enum values on condition that their numeric values are greater than 0
+25735796	assign the newvalue field depending on the value of searchfieldvalue1 as one of two mutually exclusive possibilities
+12428049	returns the nodes matching the provided xpath
+6580765	iterate through all listbox items and get their text in a background task unless cancelled explicitly by the application
+30318206	add a new column of date type and initialize it from string in format provided
+30318206	add a computed column to a datatable
+16154809	loop over a rectangle and add its points to a 2-d array
+30163147	load weapons from the database and serialize it to a json string
+22541429	replace every occurrence of provided word with word followed by occurrence number(index) of it in the file starting from 0
+13614242	load the uri in browser control
+2038730	send key strokes to a window using windows api
+7114619	perform string substitution in run time for the arguments with the value from variables
+30606620	return all the lines from a text file in a string array
+25593771	replicate a control as a picture on another box inside the same parent control
+6361986	extract only numbers from the given string
+14289313	xaml: reading the title and version attributes of a xaml application
+22541429	replace any instance of the word "map" inside a text file with the same word appended by a sequential number as a suffix
+3334229	get the top 3 products in terms of their counts in entities.baskettoproduct sorted descendingly by their number of occurences
+18864209	identify if every element in a collection matches another collection on certain property values
+7436400	convert a string space separated list of numbers into a runtime list of numbers
+17092632	write each column value of all rows of the table to the console with a new line separating each row values
+13769081	linqtosql: save changes asynchronously
+4048459	start 6 threads
+7897699	create combo box for each font family installed in the system
+6189782	xna: create a translation matrix
+16265102	xna: build a customized, orthogonal projection matrix.
+11325028	extract the interested lines from a file and write to another file
+27461741	using htmlagilitypack to process a list of links in a web page found using their common xpath query
+24717887	add items to combobox control
+20314499	remove leading and trailing spaces from string
+6942071	reference a resource belonging to the current assembly
+22132901	concatenate array of strings with space delimiter
+19624731	read the contents of the file of given name present in the desktop folder
+9501560	use a third party method defined publicly on the net to launch a process under a specific user
+21025021	create a new text block with specified foreground color and add it to panel
+6885477	using the autofac third-party api to implement inversion of control
+1605231	assign a static variable to another static variable
+1715653	building up an xml node as a string
+7897699	displayed the fonts available in the system as items in a combobox
+10704284	fill-up a combobox with the installed printers in the system
+4902461	enterprise library:  the base class from which all implementations of polymorphic configuration collections must derive.
+11325028	copy a subset of lines from one text file to another based on a substring search criteria in each line
+10303961	add a space before every uppercase letter present in the string. convert camelcase lettering style to readable words
+6999296	initialize in-memory pdf reader of the file provided
+3047448	a service object is an object that provides custom support to other objects, like system.web.httpcontext. in this example we use the iserviceprovider object to retrieve an rootobject. this applies to the xaml framework
+11504721	convert pdf to bmp using bytescout pdf renderer sdk
+24082445	check if a file is locked by another process
+6942071	load the specified manifest resource from the assembly of the specified type
+6119617	pass keystrokes to message queue of the thread which launched the provided control
+9369535	download a file from server to local path
+30606620	read all lines of file to string array in memory
+21684773	using the linqtoexcel api to read a specific cell in an excel worksheet
+2557598	c++ way to read and write files
+6885477	register the application and log module in autofac container
+21410153	get the most recent account numbers that are duplicates and place the most recent copy of each in a variables and the remaining copies in a list
+7114619	compose a string using placeholders and replacement values for these placeholders
+8760263	remove handler for an event after the first execution of event
+3645643	place 10 buttons vertically at the co-ordinates provided, each button having click handler to pop a message box with button name selected
+21684773	read data from a excel file containing multiple worksheets
+2426759	event is raised when sql server returns a warning or info message
+9938524	identify row in table whose empid equals 5 and empname is not abc or xyz
+4248930	copying the text from one textbox control to another
+21410153	sort transactions of all accounts in descending order of occurrence and identify the most recent transaction for each account
+12880009	intialize a web request to get content from a web server by passing the web page's url
+12199600	convert the path string that is divided into one subfolder per time section into a normal date string using regular expressions
+18054739	define datasource for reporting purpose in windows forms
+9853467	find a label control of given name, set the given text as value to it and display it
+3893622	initialize progress bar with different theme based on the os of system
+28573784	draw a shape in visio diagram based on data from a database
+2884873	return all the items in a master list that don't have the exclusion criteria in their customfield property
+6361986	remove any digits in a string using regex
+10626905	group contacts by first name and last name and repeat the above for all contacts of companies in companylist
+9455043	implement ienumerable interface to return a custom enumerator
+15429656	accept only numbers without comma and decimal point for the text box and stop reading after 5 digits
+6148639	outlook interop: creating a new email message and filling some of its attributes and opening it up for editing
+27105702	extract the database name and table name from sql query string using regex comparison
+670570	start a timer for duration from now to the provided time and handle bad inputs
+221154	convert a decimal number to its hexadecimal representation
+31255115	using selenium web driver to simulate a user doing a login operation in a login page
+3989638	identify all products whose price is greater than 30
+2557598	read 1024 bytes of data after the first 200 bytes in given file and overwrite the file with the read content leaving first 100 bytes unchanged
+9615661	get the header of specified column in data grid
+18054739	defined a parameter-based reportdatasource
+11504721	load each page of pdf as bitmap image and load the first image
+11911359	linq: split a sentence by the space character and return every 10 words into a new string by merging them using the space character as a seperator
+8658947	convert an xml string litteral to an xdocument object to be able to process it
+12428049	return a set of nodes in an xml document using an xpath query
+6999296	read content from a pdf using the itextsharp library
+14289313	read the manifest of silverlight application and get the application name and version
+17092632	for each row in a datatable print out the list of itemarray items related to that row
+9853467	assign a label control's text and visible properties at runtime
+6737976	create and save xml document with nodes and attributes set
+5326411	dynamically add treenodes to a treeview control based on an input xml file
+12718754	generate a listbox from an enum containing know color names and color each listbox entry based on the color name inside it
+27161381	add the nodes from the configuration file that comply with a given condition as items inside a combobox
+10602064	dynamically create an instance by identifying type from programid and operate on the instance
+1715653	string concatenation using + operator
+13502616	download a sql script file from a web server and loop over the statements inside this file and execute them against the database
+5622166	get the list of students whose grades match the given condition
+12872596	return the name of current method being executed
+16313062	the representation of the double-quote character in rtf
+27161381	extract the values of all appconfig keys starting with given text

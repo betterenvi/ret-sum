@@ -2,6 +2,8 @@
 
 ## Setup
 
+TensorFlow version: 1.4
+
 Download the Meteor automatic evaluation tool and put it under the $HOME dir.
 ```
 wget https://www.cs.cmu.edu/~alavie/METEOR/download/meteor-1.5.tar.gz
@@ -14,7 +16,7 @@ cd ret-sum
 mkdir save
 ```
 
-Start training and evaluation. The evaluation will be performed each training  epoch.
+Start training and evaluation. The evaluation will be performed each training epoch.
 ```
 # retrieve C#
 sh ./csharp_ret.sh

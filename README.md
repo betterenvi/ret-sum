@@ -46,3 +46,14 @@ INFO:root:[13.1745, 20.7678] (at 32) [10.6258, 19.4140] [11.1382, 19.8054] (at 1
 which means: up to now, we have the best Meteor (13.1745) at 32nd epoch on DEV set; at this epoch, the BLEU on DEV set is 20.7678, and the Meteor and BLEU on EVAL set is 10.6258 and 19.4140; while at the 19th epoch, we have the best Meteor on EVAL set.
 
 Note that since the training process is stochastic (the initialization of weights and the sampling operation in reparameterization), you may get a differnent result (but close).
+
+The implementation of the model is the class named as ApiDocVAE in api_emb/model/combined.py
+
+Its "_build_flow" method builds the computing graph. As is written, it consists of two VAEs:
+
+https://github.com/betterenvi/ret-sum/blob/master/api_emb/model/combined.py#L59
+
+https://github.com/betterenvi/ret-sum/blob/master/api_emb/model/combined.py#L70
+
+      
+For the implementation of the two VAEs in code retrieval task, please go to api_emb/model/mlp.py and locate the MLPModel class, which is a subclass of BaseSeqModel (in api_emb/model/base.py)
